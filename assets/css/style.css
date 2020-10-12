@@ -85,6 +85,7 @@
 }
 .panel-item img {
     grid-area: image;
+    width: 100px;
 }
 .panel-item h4 {
     grid-area: title;
