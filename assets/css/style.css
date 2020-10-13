@@ -1,11 +1,21 @@
 /* Navbar */
 .bg-nav-app {
-    background: white;
+    background-image: linear-gradient(to right, rgb(238 113 104), rgb(243 175 114));
+}
+
+.bg-scroller {
+    background-image: linear-gradient(to right, rgb(238 113 104), rgb(243 175 114)) !important;
+    transition-delay: width 2s, height 2s, transform 2s;
 }
 
 .navbar-brand {
     font-family: Viga;
     font-size: 32px;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 /* Default Button */
@@ -207,11 +217,6 @@ footer span {
 @media (min-width: 992px) {
     .bg-nav-app {
         background: none;
-    }
-
-    .navbar-brand, .nav-link {
-        color: white !important;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
 
     .nav-link {
